@@ -1,4 +1,5 @@
 import XCTest
+import Cogl
 @testable import CoglPango
 
 class CoglTests: XCTestCase {
