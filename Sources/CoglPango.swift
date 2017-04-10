@@ -10,7 +10,7 @@ import CPango
 import CCogl
 import CCoglPango
 import GLib
-import GObject
+import GLibObject
 import Pango
 
 /// This updates any internal glyph cache textures as necessary to be
