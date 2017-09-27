@@ -2,7 +2,7 @@ import XCTest
 import Cogl
 @testable import CoglPango
 
-class CoglTests: XCTestCase {
+class CoglPangoTests: XCTestCase {
     func testFixedPoint() {
         let x = Fixed(doubleValue: 0.5)
         let y = mul(x, Fixed(intValue: 2))
@@ -10,7 +10,7 @@ class CoglTests: XCTestCase {
     }
 
 
-    static var allTests : [(String, (CoglTests) -> () throws -> Void)] {
+    static var allTests : [(String, (CoglPangoTests) -> () throws -> Void)] {
         return [
             ("testFixedPoint", testFixedPoint),
         ]
