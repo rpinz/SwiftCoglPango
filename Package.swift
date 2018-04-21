@@ -7,5 +7,5 @@ let package = Package(
         .Package(url: "https://github.com/rhx/SwiftPango.git", majorVersion: 2),
         .Package(url: "https://github.com/rhx/SwiftCogl.git", majorVersion: 2),
     ],
-    swiftLanguageVersions: [3]
+    swiftLanguageVersions: [3, 4]
 )
