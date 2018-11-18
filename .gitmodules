@@ -1,0 +1,3 @@
+[submodule "Library/CCoglPango"]
+	path = Library/CCoglPango
+	url = https://github.com/rpinz/CCoglPango

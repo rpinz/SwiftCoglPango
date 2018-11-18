@@ -2,6 +2,6 @@
 /.build
 /Packages
 /*.xcodeproj
-Package.resolved
+/Package.resolved
 Package.pins
 Sources/CoglPango-1.*.swift
