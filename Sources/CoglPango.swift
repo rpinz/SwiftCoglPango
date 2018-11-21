@@ -19,7 +19,7 @@ import Pango
 /// This api should be used to avoid mid-scene modifications of
 /// glyph-cache textures which can lead to undefined rendering results.
 public extension Layout {
-    public func ensureGlyphCache() {
+    func ensureGlyphCache() {
         ensureGlyphCacheFor(layout: ptr.withMemoryRebound(to: PangoLayout.self, capacity: 1) { $0 })
     }
 }
